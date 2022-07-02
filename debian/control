@@ -1,0 +1,41 @@
+Source: wintersky-netinstall-settings
+Section: misc
+Priority: optional
+Maintainer: Alf Gaida <agaida@siduction.org>
+Uploaders: Torsten Wohlfarth <towo@siduction.org>,
+           Ovidiu Angelescu <convbsd@siduction.net>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.4
+Vcs-Browser: https://github.com/siduction/siduction-xorg
+Vcs-Git: https://github.com/siduction/siduction-xorg.git
+Homepage: https://github.com/siduction/siduction-xorg
+
+Package: wintersky-netinstall-settings
+Architecture: all
+Depends: ${misc:Depends},
+         fluxbox | x-window-manager,
+         wintersky-wallpapers,
+         wintersky-sddm-settings
+	 | wintersky-lightdm-gtk-settings
+	 | wintersky-gdm3-settings,
+         wintersky-common-settings
+Description: Netinstall settings (installed mode)
+ Provides default settings for appearance and applications of the fluxbox
+ desktop.
+ .
+ This overrides fluxbox's defaults used for new users, all settings remain
+ configurable by the local user and don't override already existing user
+ profiles.
+
+Package: wintersky-netinstall-livesettings
+Architecture: all
+Depends: ${misc:Depends},
+         siduction-icons,
+         wintersky-netinstall-settings,
+         wintersky-common-livesettings,
+         wintersky-wallpapers,
+         wintersky-sddm-livesettings
+         | wintersky-ligthdm-gtk-livesettings
+         | wintersky-gdm3-livesettings
+Description: Netinstall settings (live mode)
+ Meta package that throw in the needed dependencies for the settings package
