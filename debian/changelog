@@ -1,3 +1,9 @@
+wintersky-netinstall-settings (2021.3.0-2) unstable; urgency=medium
+
+  * fix typo
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 02 Jul 2022 15:02:26 +0200
+
 wintersky-netinstall-settings (2021.3.0-1) unstable; urgency=medium
 
   * testbuild
