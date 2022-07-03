@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: settings-xorg
-Source: https://git.siduction.org/extra/settings-xorg.git
+Upstream-Name: settings-netinstall
+Source: https://github.com/siduction/settings-netinstall
 
 Files: *
 Copyright: 2012-2018 Alf Gaida <agaida@siduction.org>

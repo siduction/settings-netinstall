@@ -1,5 +1,5 @@
 [Unit]
-Description=xorg cheatcodes in live media
+Description=netinstall cheatcodes in live media
 ConditionPathExists=/usr/share/wintersky-netinstall-livesettings/
 After=wintersky-common-livesettings.service
 

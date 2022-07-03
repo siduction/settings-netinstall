@@ -1,14 +1,14 @@
 Source: wintersky-netinstall-settings
 Section: misc
 Priority: optional
-Maintainer: Alf Gaida <agaida@siduction.org>
+Maintainer: Torsten Wohlfarth <towo@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.4
-Vcs-Browser: https://github.com/siduction/siduction-xorg
-Vcs-Git: https://github.com/siduction/siduction-xorg.git
-Homepage: https://github.com/siduction/siduction-xorg
+Vcs-Browser: https://github.com/siduction/settings-netinstall
+Vcs-Git: https://github.com/siduction/settings-netinstall.git
+Homepage: https://github.com/siduction/settings-netinstall
 
 Package: wintersky-netinstall-settings
 Architecture: all
