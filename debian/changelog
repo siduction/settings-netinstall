@@ -1,3 +1,9 @@
+mow-netinstall-settings (2022.99-1) unstable; urgency=medium
+
+  * testbuild
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 02 Apr 2023 14:53:37 +0200
+
 wintersky-netinstall-settings (2021.3.0-2) unstable; urgency=medium
 
   * fix typo

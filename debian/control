@@ -1,4 +1,4 @@
-Source: wintersky-netinstall-settings
+Source: mow-netinstall-settings
 Section: misc
 Priority: optional
 Maintainer: Torsten Wohlfarth <towo@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Browser: https://github.com/siduction/settings-netinstall
 Vcs-Git: https://github.com/siduction/settings-netinstall.git
 Homepage: https://github.com/siduction/settings-netinstall
 
-Package: wintersky-netinstall-settings
+Package: mow-netinstall-settings
 Architecture: all
 Depends: ${misc:Depends},
          fluxbox | x-window-manager,
-         wintersky-wallpapers,
-         wintersky-sddm-settings
-	 | wintersky-lightdm-gtk-settings
-	 | wintersky-gdm3-settings,
-         wintersky-common-settings
+         mow-wallpapers,
+         mow-sddm-settings
+	 | mow-lightdm-gtk-settings
+	 | mow-gdm3-settings,
+         mow-common-settings
 Description: Netinstall settings (installed mode)
  Provides default settings for appearance and applications of the fluxbox
  desktop.
@@ -27,15 +27,15 @@ Description: Netinstall settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: wintersky-netinstall-livesettings
+Package: mow-netinstall-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         wintersky-netinstall-settings,
-         wintersky-common-livesettings,
-         wintersky-wallpapers,
-         wintersky-sddm-livesettings
-         | wintersky-ligthdm-gtk-livesettings
-         | wintersky-gdm3-livesettings
+         mow-netinstall-settings,
+         mow-common-livesettings,
+         mow-wallpapers,
+         mow-sddm-livesettings
+         | mow-ligthdm-gtk-livesettings
+         | mow-gdm3-livesettings
 Description: Netinstall settings (live mode)
  Meta package that throw in the needed dependencies for the settings package
