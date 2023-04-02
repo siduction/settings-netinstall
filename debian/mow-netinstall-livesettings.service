@@ -1,0 +1,11 @@
+[Unit]
+Description=netinstall cheatcodes in live media
+ConditionPathExists=/usr/share/mow-netinstall-livesettings/
+After=mow-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/mow-netinstall-livesettings/netinstall-cheatcodes start
+
+[Install]
+WantedBy=graphical.target
