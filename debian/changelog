@@ -1,3 +1,9 @@
+mow-netinstall-settings (2022.99-2) unstable; urgency=medium
+
+  * fix wallpaper
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 02 Apr 2023 15:58:54 +0200
+
 mow-netinstall-settings (2022.99-1) unstable; urgency=medium
 
   * testbuild
